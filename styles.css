@@ -768,6 +768,14 @@ h1, h2, h3, h4 {
     .hero-carousel { height: 500px; }
     .nav-links { display: none; }
     .prev-btn, .next-btn { display: none; }
+
+    /* Fix card overlap on mobile */
+    .hero-features,
+    .features-container
+    .feature-card {
+        margin-top: 1.5rem !important;
+        transform: none !important;
+    }
 }
 
 .reveal {
@@ -804,4 +812,7 @@ h1, h2, h3, h4 {
         min-width: 36px;
         min-height: 36px;
     }
+}
+.netlify-badge {
+    display: none !important;
 }
