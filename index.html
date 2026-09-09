@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCB Electrical Services | Engineering & Solar Solutions</title>
+    <!-- Open Graph Metadata for Social Media & Chat Previews -->
+    <meta property="og:title" content="KCB Electrical Services | Engineering & Solar Solutions">
+    <meta property="og:description" content="Premier electrical engineering, solar power installations, and modern security infrastructure.">
+    <meta property="og:image" content="https://yourdomain.com/images/logo.png">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KCB Electrical Services">
+    <meta name="twitter:description" content="Premier electrical engineering, solar power installations, and security solutions.">
+    <meta name="twitter:image" content="https://yourdomain.com/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Browser Tab Icon (Favicon) & Search Result Icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="KCB Electricals Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="company-name">KCB <span>ELECTRICALS</span></span>
+                    <span class="rc-tag">RC No. 7844147</span>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#process">Work Process</a>
+                <a href="#hseq">Safety</a>
+                <a href="#contact" class="btn-nav"><i class="fa-brands fa-whatsapp"></i> Get Quote</a>
+                <!-- Theme Toggle Button -->
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Light/Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PowerPoint Style Hero Carousel -->
+    <section class="hero-carousel">
+        <div class="carousel-container">
+            <!-- Slide 1 -->
+            <div class="hero-slide active">
+                <div class="slide-bg-overlay"></div>
+                <div class="container slide-content">
+                    <span class="badge-pill"><i class="fa-solid fa-certificate"></i> CAC Reg No. 7844147</span>
+                    <h1 class="slide-title">Powering Your World <br><span class="gradient-text">One Call Away</span></h1>
+                    <p class="slide-desc">Premier electrical engineering, solar power installations, and modern security infrastructure engineered for absolute reliability.</p>
+                    <div class="slide-actions">
+                        <a href="https://wa.me/2348134410093" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Instant WhatsApp Chat</a>
+                        <a href="tel:08108354896" class="btn btn-glass"><i class="fa-solid fa-phone"></i> Call 0810 835 4896</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide">
+                <div class="slide-bg-overlay"></div>
+                <div class="container slide-content">
+                    <span class="badge-pill"><i class="fa-solid fa-solar-panel"></i> Clean Energy Solutions</span>
+                    <h1 class="slide-title">Uninterrupted <br><span class="gradient-text">Solar & Inverter Power</span></h1>
+                    <p class="slide-desc">Custom lithium/gel inverter system designs, solar panel array setups, and commercial energy storage solutions.</p>
+                    <div class="slide-actions">
+                        <a href="#services" class="btn btn-primary"><i class="fa-solid fa-bolt"></i> Explore Solar Plans</a>
+                        <a href="https://wa.me/2348134410093" class="btn btn-glass"><i class="fa-brands fa-whatsapp"></i> Request Audit</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide">
+                <div class="slide-bg-overlay"></div>
+                <div class="container slide-content">
+                    <span class="badge-pill"><i class="fa-solid fa-shield-halved"></i> Smart Automation & Security</span>
+                    <h1 class="slide-title">Next-Gen <br><span class="gradient-text">CCTV & Smart Automation</span></h1>
+                    <p class="slide-desc">Remote smartphone CCTV monitoring, app-controlled lighting, motion sensing, and biometric access controls.</p>
+                    <div class="slide-actions">
+                        <a href="#portfolio" class="btn btn-primary"><i class="fa-solid fa-eye"></i> View Recent Work</a>
+                        <a href="tel:08108354896" class="btn btn-glass"><i class="fa-solid fa-phone"></i> Call An Engineer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Navigation Controls -->
+        <button class="carousel-btn prev-btn" id="heroPrev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-btn next-btn" id="heroNext"><i class="fa-solid fa-chevron-right"></i></button>
+
+        <!-- Slide Indicators -->
+        <div class="carousel-dots" id="heroDots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Floating Statistics Bar -->
+    <section class="trust-bar">
+        <div class="container trust-grid">
+            <div class="trust-card reveal delay-1">
+                <div class="trust-icon"><i class="fa-solid fa-file-contract"></i></div>
+                <div>
+                    <h4>CAC Registered</h4>
+                    <p>RC: 7844147 | TIN: 31833812-0001</p>
+                </div>
+            </div>
+            <div class="trust-card reveal delay-2">
+                <div class="trust-icon"><i class="fa-solid fa-hard-hat"></i></div>
+                <div>
+                    <h4>HSEQ Compliant</h4>
+                    <p>Strict PPE & Safety Protocols</p>
+                </div>
+            </div>
+            <div class="trust-card reveal delay-3">
+                <div class="trust-icon"><i class="fa-solid fa-gears"></i></div>
+                <div>
+                    <h4>Nationwide Execution</h4>
+                    <p>Residential, Commercial & Industrial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container grid-2">
+            <div class="about-text reveal">
+                <span class="section-tag">Engineering Excellence</span>
+                <h2 class="section-heading">About KCB Electrical Services</h2>
+                <p class="lead-text">KCB Electrical Services is a fully registered electrical engineering company delivering reliable, safe, and innovative electrical solutions across Nigeria.</p>
+                <p>We combine highly skilled technicians, modern equipment, and an uncompromised safety-first culture across all project phases—from fundamental building wiring to full-scale commercial and industrial power installations.</p>
+
+                <div class="vm-frame-grid">
+                    <div class="glass-frame reveal delay-1">
+                        <div class="frame-icon"><i class="fa-solid fa-eye"></i></div>
+                        <h3>Our Vision</h3>
+                        <p>To become one of Nigeria's leading electrical engineering firms, recognized for technical innovation, uncompromising safety, and outstanding client care.</p>
+                    </div>
+                    <div class="glass-frame reveal delay-2">
+                        <div class="frame-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3>Our Mission</h3>
+                        <p>To provide high-quality electrical and energy solutions through skilled engineering workmanship and modern technology while upholding strict safety codes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-frame reveal delay-2">
+                <div class="frame-header">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Core Pillars</h3>
+                </div>
+                <ul class="value-pillars">
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>Safety & Reliability:</strong> Zero-tolerance for electrical hazards.</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>Professional Integrity:</strong> Full transparent pricing & quality compliance.</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>Technical Precision:</strong> Built to national electrical codes.</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>Modern Innovation:</strong> Smart energy & automation integrations.</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>End-to-End Support:</strong> Responsive after-sales maintenance.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-tag">Comprehensive Offerings</span>
+                <h2>Specialized Engineering Services</h2>
+                <p>Turnkey electrical, solar, and automation solutions engineered to perfection.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-frame reveal delay-1">
+                    <div class="service-badge"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Electrical Systems</h3>
+                    <ul>
+                        <li>Residential, Commercial & Industrial Wiring</li>
+                        <li>Distribution Board Assembly & Upgrades</li>
+                        <li>Earthing & Surge/Lightning Protection</li>
+                        <li>Fault Diagnosis & Preventive Maintenance</li>
+                    </ul>
+                </div>
+
+                <div class="service-frame reveal delay-2">
+                    <div class="service-badge"><i class="fa-solid fa-solar-panel"></i></div>
+                    <h3>Solar Energy Solutions</h3>
+                    <ul>
+                        <li>Solar Hybrid & Off-Grid System Design</li>
+                        <li>Lithium/Gel Battery Bank Installation</li>
+                        <li>Solar Street Lighting Solutions</li>
+                        <li>Inverter Optimization & Maintenance</li>
+                    </ul>
+                </div>
+
+                <div class="service-frame reveal delay-3">
+                    <div class="service-badge"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Architectural Lighting</h3>
+                    <ul>
+                        <li>POP Recessed & Profile Strip Lighting</li>
+                        <li>Landscape, Garden & Perimeter Lighting</li>
+                        <li>Staircase Accent & Wall-Washer Lights</li>
+                        <li>Security Floodlighting & Automation</li>
+                    </ul>
+                </div>
+
+                <div class="service-frame reveal delay-1">
+                    <div class="service-badge"><i class="fa-solid fa-video"></i></div>
+                    <h3>Security Surveillance</h3>
+                    <ul>
+                        <li>IP & Analog CCTV Camera Installation</li>
+                        <li>Remote Live Smartphone Monitoring</li>
+                        <li>Smart Video Doorbell & Intercom Systems</li>
+                        <li>Biometric Access Control Systems</li>
+                    </ul>
+                </div>
+
+                <div class="service-frame reveal delay-2">
+                    <div class="service-badge"><i class="fa-solid fa-house-signal"></i></div>
+                    <h3>Smart Home Automation</h3>
+                    <ul>
+                        <li>Smart Switches & Scheduled Lighting</li>
+                        <li>Occupancy & Motion Sensor Setup</li>
+                        <li>Motorized Curtain & Blind Controls</li>
+                        <li>Energy Usage Analytics & Voice Control</li>
+                    </ul>
+                </div>
+
+                <div class="service-frame highlight-frame reveal delay-3">
+                    <div class="service-badge gold-badge"><i class="fa-solid fa-crown"></i></div>
+                    <h3>The KCB Advantage</h3>
+                    <ul>
+                        <li>Duly Registered Entity (RC: 7844147)</li>
+                        <li>100% Certified Standard Materials</li>
+                        <li>PPE-Equipped Site Technicians</li>
+                        <li>Transparent Estimates & On-Time Handover</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Image Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-tag">Project Showcase</span>
+                <h2>Featured Project Portfolio</h2>
+                <p>From foundation structural framework through to final electrical handovers.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Stage 1 Gallery Card -->
+                <div class="portfolio-card reveal delay-1">
+                    <div class="gallery-wrapper" id="gallery-1">
+                        <div class="gallery-slides">
+                            <img src="images/project-1-1.jpg" alt="Structural Framework 1" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+1+-+Photo+1'">
+                            <img src="images/project-1-2.jpg" alt="Structural Framework 2" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+1+-+Photo+2'">
+                            <img src="images/project-1-3.jpg" alt="Structural Framework 3" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+1+-+Photo+3'">
+                        </div>
+                        <span class="stage-badge">Stage 01</span>
+                        <button class="gal-btn gal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="gal-btn gal-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="gal-dots">
+                            <span class="g-dot active"></span>
+                            <span class="g-dot"></span>
+                            <span class="g-dot"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>1. Structural Framework</h3>
+                        <p>Block work and bamboo formwork during the shell construction phase.</p>
+                    </div>
+                </div>
+
+                <!-- Stage 2 Gallery Card -->
+                <div class="portfolio-card reveal delay-2">
+                    <div class="gallery-wrapper" id="gallery-2">
+                        <div class="gallery-slides">
+                            <img src="images/project-2-1.jpg" alt="Slab Works 1" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+2+-+Photo+1'">
+                            <img src="images/project-2-2.jpg" alt="Slab Works 2" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+2+-+Photo+2'">
+                            <img src="images/project-2-3.jpg" alt="Slab Works 3" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+2+-+Photo+3'">
+                        </div>
+                        <span class="stage-badge">Stage 02</span>
+                        <button class="gal-btn gal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="gal-btn gal-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="gal-dots">
+                            <span class="g-dot active"></span>
+                            <span class="g-dot"></span>
+                            <span class="g-dot"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>2. Reinforcement & Slab Works</h3>
+                        <p>Steel reinforcement laid ahead of concrete slab casting operations.</p>
+                    </div>
+                </div>
+
+                <!-- Stage 3 Gallery Card -->
+                <div class="portfolio-card reveal delay-3">
+                    <div class="gallery-wrapper" id="gallery-3">
+                        <div class="gallery-slides">
+                            <img src="images/project-3-1.jpg" alt="Conduits 1" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+3+-+Photo+1'">
+                            <img src="images/project-3-2.jpg" alt="Conduits 2" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+3+-+Photo+2'">
+                            <img src="images/project-3-3.jpg" alt="Conduits 3" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+3+-+Photo+3'">
+                        </div>
+                        <span class="stage-badge">Stage 03</span>
+                        <button class="gal-btn gal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="gal-btn gal-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="gal-dots">
+                            <span class="g-dot active"></span>
+                            <span class="g-dot"></span>
+                            <span class="g-dot"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>3. Roofing & Conduit Installation</h3>
+                        <p>Roof structure going up with electrical conduits embedded systematically.</p>
+                    </div>
+                </div>
+
+                <!-- Stage 4 Gallery Card -->
+                <div class="portfolio-card reveal delay-1">
+                    <div class="gallery-wrapper" id="gallery-4">
+                        <div class="gallery-slides">
+                            <img src="images/project-4-1.jpg" alt="Wiring 1" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+4+-+Photo+1'">
+                            <img src="images/project-4-2.jpg" alt="Wiring 2" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+4+-+Photo+2'">
+                            <img src="images/project-4-3.jpg" alt="Wiring 3" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+4+-+Photo+3'">
+                        </div>
+                        <span class="stage-badge">Stage 04</span>
+                        <button class="gal-btn gal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="gal-btn gal-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="gal-dots">
+                            <span class="g-dot active"></span>
+                            <span class="g-dot"></span>
+                            <span class="g-dot"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>4. Wiring & Socket Installation</h3>
+                        <p>Technician terminating cable routes, socket points, and distribution boards.</p>
+                    </div>
+                </div>
+
+                <!-- Stage 5 Gallery Card -->
+                <div class="portfolio-card reveal delay-2">
+                    <div class="gallery-wrapper" id="gallery-5">
+                        <div class="gallery-slides">
+                            <img src="images/project-5-1.jpg" alt="Fixtures 1" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+5+-+Photo+1'">
+                            <img src="images/project-5-2.jpg" alt="Fixtures 2" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+5+-+Photo+2'">
+                            <img src="images/project-5-3.jpg" alt="Fixtures 3" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+5+-+Photo+3'">
+                        </div>
+                        <span class="stage-badge">Stage 05</span>
+                        <button class="gal-btn gal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="gal-btn gal-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="gal-dots">
+                            <span class="g-dot active"></span>
+                            <span class="g-dot"></span>
+                            <span class="g-dot"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>5. Fixture & Lighting Installation</h3>
+                        <p>Architectural lighting, ceiling fan fittings, and final switches mounting.</p>
+                    </div>
+                </div>
+
+                <!-- Stage 6 Gallery Card -->
+                <div class="portfolio-card reveal delay-3">
+                    <div class="gallery-wrapper" id="gallery-6">
+                        <div class="gallery-slides">
+                            <img src="images/project-6-1.jpg" alt="Completed 1" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+6+-+Photo+1'">
+                            <img src="images/project-6-2.jpg" alt="Completed 2" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+6+-+Photo+2'">
+                            <img src="images/project-6-3.jpg" alt="Completed 3" onerror="this.src='https://via.placeholder.com/600x400?text=Stage+6+-+Photo+3'">
+                        </div>
+                        <span class="stage-badge gold-bg">Handover Ready</span>
+                        <button class="gal-btn gal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="gal-btn gal-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="gal-dots">
+                            <span class="g-dot active"></span>
+                            <span class="g-dot"></span>
+                            <span class="g-dot"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>6. Fully Completed Project</h3>
+                        <p>Fully wired, powered, tested, and ready for official client handover.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section id="process" class="section bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-tag">Methodology</span>
+                <h2>Our 6-Step Work Process</h2>
+                <p>Structured execution model ensuring high standards on every project site.</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step-card reveal delay-1">
+                    <div class="step-num">01</div>
+                    <h4>Consultation</h4>
+                    <p>Initial client meeting and comprehensive site evaluation.</p>
+                </div>
+                <div class="process-step-card reveal delay-2">
+                    <div class="step-num">02</div>
+                    <h4>Design & Plan</h4>
+                    <p>Schematic electrical layouts, load estimations, and quotes.</p>
+                </div>
+                <div class="process-step-card reveal delay-3">
+                    <div class="step-num">03</div>
+                    <h4>Sourcing</h4>
+                    <p>Procuring certified, high-grade cables and equipment.</p>
+                </div>
+                <div class="process-step-card reveal delay-1">
+                    <div class="step-num">04</div>
+                    <h4>Execution</h4>
+                    <p>Rigorous site installation by PPE-equipped engineers.</p>
+                </div>
+                <div class="process-step-card reveal delay-2">
+                    <div class="step-num">05</div>
+                    <h4>Testing</h4>
+                    <p>Full insulation, continuity, and circuit safety tests.</p>
+                </div>
+                <div class="process-step-card reveal delay-3">
+                    <div class="step-num">06</div>
+                    <h4>Handover</h4>
+                    <p>Final client handover with long-term support warranty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HSEQ Safety Banner -->
+    <section id="hseq" class="section bg-dark">
+        <div class="container">
+            <div class="hseq-banner-frame reveal">
+                <div class="hseq-content">
+                    <span class="badge-pill gold-pill"><i class="fa-solid fa-shield-cat"></i> Safety Priority</span>
+                    <h2>Health, Safety, Environment & Quality (HSEQ)</h2>
+                    <p>Safety is the cornerstone of our operations. We operate in full adherence to international engineering safety frameworks and Nigerian electrical safety codes.</p>
+                    
+                    <div class="hseq-grid">
+                        <div class="hseq-box reveal delay-1">
+                            <i class="fa-solid fa-hard-hat"></i>
+                            <span>Mandatory PPE (Boots, Helmets, Gloves) on Site</span>
+                        </div>
+                        <div class="hseq-box reveal delay-2">
+                            <i class="fa-solid fa-clipboard-check"></i>
+                            <span>Pre-Project Site Hazard & Risk Assessments</span>
+                        </div>
+                        <div class="hseq-box reveal delay-1">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>Eco-Friendly Material Recycling & Disposal</span>
+                        </div>
+                        <div class="hseq-box reveal delay-2">
+                            <i class="fa-solid fa-user-shield"></i>
+                            <span>Continuous Engineering Safety Training</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact -->
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col reveal delay-1">
+                <h2>KCB <span>ELECTRICALS</span></h2>
+                <p class="tagline">"Powering Your World One Call Away."</p>
+                <div class="cac-box">
+                    <p><strong>CAC Registration:</strong> RC No. 7844147</p>
+                    <p><strong>Tax ID Number:</strong> TIN 31833812-0001</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://facebook.com/Kcb_electricals" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/Kcb_electricals" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col reveal delay-2">
+                <h3>Contact Information</h3>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-location-dot"></i> Umudike, Ikwuano, Umuahia, Abia State, Nigeria</li>
+                    <li><i class="fa-solid fa-phone"></i> Call: 0810 835 4896</li>
+                    <li><i class="fa-brands fa-whatsapp"></i> WhatsApp: 0813 441 0093</li>
+                    <li><i class="fa-solid fa-envelope"></i> kcbelectricalservices@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-col reveal delay-3">
+                <h3>Request Consultation</h3>
+                <p>Have an upcoming electrical project or require immediate technical intervention?</p>
+                <a href="https://wa.me/2348134410093" target="_blank" class="btn btn-primary btn-block"><i class="fa-brands fa-whatsapp"></i> Chat With An Engineer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 KCB Electrical Services (RC No. 7844147). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
